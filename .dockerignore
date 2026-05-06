@@ -1,0 +1,16 @@
+node_modules/
+frontend/node_modules/
+backend/venv/
+backend/__pycache__/
+__pycache__/
+venv/
+.venv/
+.env
+backend/.env
+frontend/.env
+*.sqlite3
+*.db
+backend/database/
+database/
+.git/
+.gitignore

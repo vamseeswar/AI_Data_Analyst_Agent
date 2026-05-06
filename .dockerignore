@@ -10,7 +10,7 @@ backend/.env
 frontend/.env
 *.sqlite3
 *.db
-backend/database/
-database/
+backend/database/*.bin
+backend/database/*.json
 .git/
 .gitignore

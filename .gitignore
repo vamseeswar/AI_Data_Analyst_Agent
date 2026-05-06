@@ -15,8 +15,10 @@ backend/.env
 frontend/.env
 
 # Databases & Data
-database/
-backend/database/
+database/*.bin
+database/*.json
+backend/database/*.bin
+backend/database/*.json
 *.sqlite3
 *.db
 *.csv

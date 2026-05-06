@@ -25,7 +25,9 @@ function App() {
     document.documentElement.classList.toggle('dark');
   };
 
-  const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000';
+  // When deployed together, the frontend and backend share the same domain.
+  // In dev mode, we can use the relative path if proxy is configured, or point to 8000.
+  const API_BASE_URL = import.meta.env.PROD ? '' : 'http://127.0.0.1:8000';
 
   const handleFileUpload = async (e) => {
     const selectedFile = e.target.files[0];

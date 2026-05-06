@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+groq
+pandas
+numpy
+scikit-learn
+prophet
+faiss-cpu
+python-multipart
+python-dotenv
+pydantic

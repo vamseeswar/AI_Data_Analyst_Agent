@@ -1,0 +1,29 @@
+# Node
+node_modules/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+backend/venv/
+
+# Environment Variables
+.env
+backend/.env
+frontend/.env
+
+# Databases & Data
+database/
+backend/database/
+*.sqlite3
+*.db
+*.csv
+*.xlsx
+backend/error_log.txt
+backend/chat_error_log.txt
+
+# OS Files
+.DS_Store
+Thumbs.db
